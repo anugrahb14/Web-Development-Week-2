@@ -1,0 +1,16 @@
+body {
+    background-color: lightblue;
+    font-family: Georgia, serif;
+    margin: 40px;
+}
+
+h1 {
+    color: darkblue;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    color: darkgreen;
+    font-size: 18px;
+    line-height: 1.6;
+}
