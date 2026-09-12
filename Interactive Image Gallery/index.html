@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>My Image Gallery</h1>
+
+    <div class="gallery">
+        <img src="image1.jpg" alt="Gallery Image 1" onclick="openLightbox(this)">
+        <img src="image2.jpg" alt="Gallery Image 2" onclick="openLightbox(this)">
+        <img src="image3.jpg" alt="Gallery Image 3" onclick="openLightbox(this)">
+        <img src="image4.jpg" alt="Gallery Image 4" onclick="openLightbox(this)">
+        <img src="image5.jpg" alt="Gallery Image 5" onclick="openLightbox(this)">
+        <img src="image6.jpg" alt="Gallery Image 6" onclick="openLightbox(this)">
+    </div>
+
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="close">&times;</span>
+        <img id="lightbox-image" src="" alt="Large Gallery Image">
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
